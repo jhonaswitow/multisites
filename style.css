@@ -1,0 +1,41 @@
+body {
+	background: fixed url("./imagens/carro.jfif");
+	background-size: cover;
+  background-position: center center;
+}
+
+.c {
+	background-color: red;
+	color: white;
+	border: none;
+	outline: none;
+	height: 70px;
+	width: 70px;
+}
+
+.verde {
+	background-color: rgb(10, 177, 10);
+	color: white;
+	border: none;
+	outline: none;
+	height: 70px;
+	width: 70px;
+}
+
+.azul {
+	background-color: rgb(3, 194, 194);
+	color: white;
+	border: none;
+	outline: none;
+	height: 70px;
+	width: 70px;
+}
+
+.cal {
+	background-color: rgb(172, 157, 157);
+	color: white;
+	border: none;
+	outline: none;
+	height: 70px;
+	width: 70px;
+}
