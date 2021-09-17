@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <meta property="og:title" content="Multi site">
     <meta name="theme-color" content="#ff0000">
-	  <meta property="og:description" content="Multi sites é um site aonde tem várias coisas (claro), por enquanto a única coisa que tem nele é a calculadora... Em breve terá mais coisas legais :3">
+	  <meta property="og:description" content="Multi sites é um site aonde tem várias coisas. (claro) por enquanto a única coisa que tem nele é a calculadora... Em breve terá mais coisas legais :3">
     <title>Calculadora</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,10 +16,17 @@
 		<input type="view" id="resultado" size="36">
 		<table>
 			<tr>
+				
+		<td><input type="button" class="c" value="C" onclick="remove()"></td>
+<td><input type="button" class="verde" value="()" onclick="colocar('()')"></td>
+<td><input type="button" class="verde" value="÷" onclick="colocar('/')"></td>
+<td><input type="button" class="verde" value="P" onclick="colocar('**')" id="cal"></td>
+			</tr>
+			<tr>			
 		<td><input type="button" class="cal" value="7" onclick="colocar(7)"></td>
 <td><input type="button" class="cal" value="8" onclick="colocar(8)"></td>
 <td><input type="button" class="cal" value="9" onclick="colocar(9)"></td>
-<td><input type="button" class="c" value="C" onclick="remove()" id="cal"></td>
+<td><input type="button" class="verde" value="x" onclick="colocar('*')" id="cal"></td>
 			</tr>
 
 		<tr>
@@ -44,5 +51,8 @@
 </tr>
 </table>
 </center>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
