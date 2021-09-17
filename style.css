@@ -1,7 +1,7 @@
 body {
-	background: fixed url("./carro.jfif");
+	background: fixed url("./icarro.jfif");
 	background-size: cover;
-  background-position: center center;
+        background-position: center center;
 }
 
 .c {
@@ -14,7 +14,7 @@ body {
 }
 
 .verde {
-	background-color: rgb(10, 177, 10);
+	background-color: #32CD32;
 	color: white;
 	border: none;
 	outline: none;
@@ -23,7 +23,7 @@ body {
 }
 
 .azul {
-	background-color: rgb(3, 194, 194);
+	background-color: #6495ED;
 	color: white;
 	border: none;
 	outline: none;
@@ -32,7 +32,7 @@ body {
 }
 
 .cal {
-	background-color: rgb(172, 157, 157);
+	background-color: #4F4F4F;
 	color: white;
 	border: none;
 	outline: none;
